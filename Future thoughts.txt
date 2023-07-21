@@ -1,0 +1,4 @@
+- robust user creation and authentication
+    - password confirmation on signup form
+- separate signup form w first name, last name, icon, etc.
+- allow CR to submit message (rather than pressing button)

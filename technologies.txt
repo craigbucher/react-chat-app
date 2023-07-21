@@ -1,0 +1,96 @@
+********************************************
+* Video doesn't address any CSS or styling 
+* focus is on underlying technologies
+********************************************
+
+Front end:
+- React = 
+- chat engine = chat application    (chatengine.io)
+- redux toolkit = state management
+- redux query = making api calls
+- react router = navigation
+- heroicons = icons
+- dropzone = file upload
+
+Back end:
+- node.js = runtime
+- express js = backend framework
+- openai = ai integration
+- body-parser = 
+- cors = cross-origin resource sharing
+- dotenv = read/use environment variables
+- helmet = better security for api calls
+- morgan = log api calls
+
+npm create vite@latest
+    - react
+    - javascript
+
+frontend (client):
+npm i react-redux @reduxjs/toolkit @heroicons/react react-router-dom react-dropzone react-chat-engine-advanced
+npm i -D sass
+npm i -D eslint eslint-config-react-app
+npm i -D @types/node    <== allows replace relative path with '@' (config in vite.config.js and jsconfig.json)
+
+backend (server):
+npm i express body-parser cors dotenv helmet morgan
+npm i -D nodemon (-D = only in development environment)
+npm i openai
+npm i axios = assist with api calls
+
+VSCode extensions:
+- ES7+ React/Redux/React-Native snippets
+- Prettier ESLint
+- Turbo Console Log
+
+Chat Engine promo code = edward (free trial lasts forever)
+
+*** Remove '<React.StrictMode>' from main.jsx
+
+* Simple architecture, so not decoupling 'routes' and 'controllers' in this case
+
+** in router.post("/signup" in auth.js, where do we get 'username' and 'password'?
+    - 'postSignUp' in state/api.js has a 'payload'
+    - in login/index.jsx, 'triggerSignup' passes in 'username' and 'password'
+        to usePostSignUpMutation, which is the 'payload' in 'postSignUp', above
+
+server.env:
+PORT=1337
+OPEN_API_KEY=       <key for openapi>
+PROJECT_ID=         <'Project ID' from chat engine>
+BOT_USER_NAME=      <name of AI bot in chat engine>
+BOT_USER_SECRET=    <password of AI bot in chat engine>
+PRIVATE_KEY=        <'Private Key' from chat engine>
+
+client.env:
+VITE_BASE_URL=http://localhost:1337
+VITE_PROJECT_ID=    <'Project ID' from chat engine>
+
+Chatroom names for AI responses:
+
+- regular chat = AiChat_<name>
+- code completion = AiCode<name>
+- input prompt assistance = AiAssist_<name>
+
+Links: 
+node: https://nodejs.org/en/download/ 
+npx: https://www.npmjs.com/package/npx
+vscode: https://code.visualstudio.com/download
+nodemon: https://github.com/remy/nodemon
+vite: https://vitejs.dev/guide/ 
+react router: https://reactrouter.com/en/v6.3.0/getting-started/installation
+react dropzone: https://github.com/react-dropzone/react-dropzone
+redux toolkit: https://redux-toolkit.js.org/introduction/getting-started
+redux toolkit query: https://redux-toolkit.js.org/rtk-quer... 
+hero icons: https://heroicons.com/ 
+dotenv: https://github.com/motdotla/dotenv 
+chatengine login: https://chatengine.io/
+chatengine docs: https://chatengine.io/docs/react/v2 
+chatengine storybook: https://chatengine-io.github.io/react-chat-engine-advanced/?path=%2Fdocs%2Fmultichatwindow--default-story
+chatengine api: https://rest.chatengine.io/ 
+chatengine styling: https://chatengine.io/docs/react/v1/customize_ui/custom_css 
+openai node npm: https://github.com/openai/openai-node 
+openai completion docs: https://platform.openai.com/docs/api-reference/completions/create
+openai playground: https://platform.openai.com/playground 
+openai api chatgpt update new: https://openai.com/blog/introducing-chatgpt-and-whisper-apis 
+openai api gpt-3.5 docs: https://platform.openai.com/docs/guides/gpt/chat-completions-api
