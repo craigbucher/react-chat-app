@@ -38,6 +38,9 @@ npm i -D nodemon (-D = only in development environment)
 npm i openai
 npm i axios = assist with api calls
 
+** Start both frontend and backend webservers with:
+    npm run dev
+
 VSCode extensions:
 - ES7+ React/Redux/React-Native snippets
 - Prettier ESLint
