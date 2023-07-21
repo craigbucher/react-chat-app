@@ -1,5 +1,5 @@
 import { usePostAiTextMutation } from "@/state/api";
-import React, { useState } from "react";
+import { useState } from "react";
 import MessageFormUI from "./MessageFormUI";
 
 // for text-based AI queries:
