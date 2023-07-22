@@ -1,3 +1,7 @@
+// https://www.youtube.com/watch?v=ffEDkqfIzxM
+// https://github.com/ed-roh/chat-app
+// https://discord.gg/2FfPeEk2mX
+
 import { useState } from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Chat from "@/components/chat";
