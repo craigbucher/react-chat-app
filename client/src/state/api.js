@@ -15,7 +15,7 @@ export const api = createApi({
     }),
     postAiCode: build.mutation({
       query: (payload) => ({
-        url: "openai/code", // http://localhost:1337/openaicode
+        url: "openai/code", // http://localhost:1337/openai/code
         method: "POST",
         body: payload,
       }),

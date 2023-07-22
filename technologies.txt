@@ -16,7 +16,7 @@ Back end:
 - node.js = runtime
 - express js = backend framework
 - openai = ai integration
-- body-parser = 
+- body-parser = enforce constraints on incoming request bodies
 - cors = cross-origin resource sharing
 - dotenv = read/use environment variables
 - helmet = better security for api calls
