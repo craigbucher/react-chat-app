@@ -2,7 +2,7 @@
   "name": "client",
   "private": true,
   "version": "0.0.0",
-  "homepage": ".",
+  "homepage": "https://react-chat-app-blond.vercel.app/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

@@ -78,6 +78,8 @@ Chatroom names for AI responses:
 (Watch your app at https://fly.io/apps/divine-meadow-1824/monitoring)
 (Visit your newly deployed app at https://divine-meadow-1824.fly.dev/)
 
+(https://react-chat-app-blond.vercel.app/)
+
 Links: 
 node: https://nodejs.org/en/download/ 
 npx: https://www.npmjs.com/package/npx
