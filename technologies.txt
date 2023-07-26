@@ -75,6 +75,9 @@ Chatroom names for AI responses:
 - code completion = AiCode<name>
 - input prompt assistance = AiAssist_<name>
 
+(Watch your app at https://fly.io/apps/divine-meadow-1824/monitoring)
+(Visit your newly deployed app at https://divine-meadow-1824.fly.dev/)
+
 Links: 
 node: https://nodejs.org/en/download/ 
 npx: https://www.npmjs.com/package/npx
